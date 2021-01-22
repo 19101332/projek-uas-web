@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>projectuas1.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="generator" content="SynEdit HTML exporter" />
+<style type="text/css">
+<!--
+body { color: #000000; background-color: #FFFFFF; }
+.cpp1-assembler { color: #0000FF; }
+.cpp1-character { color: #000000; }
+.cpp1-comment { color: #0078D7; font-style: italic; }
+.cpp1-float { color: #800080; }
+.cpp1-hexadecimal { color: #800080; }
+.cpp1-identifier { color: #000000; }
+.cpp1-illegalchar { color: #000000; }
+.cpp1-number { color: #800080; }
+.cpp1-octal { color: #800080; }
+.cpp1-preprocessor { color: #008000; }
+.cpp1-reservedword { color: #000000; font-weight: bold; }
+.cpp1-space { background-color: #FFFFFF; color: #000000; }
+.cpp1-string { color: #0000FF; font-weight: bold; }
+.cpp1-symbol { color: #FF0000; font-weight: bold; }
+-->
+</style>
+</head>
+<body>
+<pre>
+<code><span style="font: 10pt Consolas;"><span class="cpp1-preprocessor">#include &lt;iostream&gt;
+</span><span class="cpp1-reservedword">using</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">namespace</span><span class="cpp1-space"> std</span><span class="cpp1-symbol">;
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> main</span><span class="cpp1-symbol">()
+{
+</span><span class="cpp1-space">                </span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> kode</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> pri</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> jml</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> tot</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> byr</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> kbl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                </span><span class="cpp1-reservedword">char</span><span class="cpp1-space"> mad</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                </span><span class="cpp1-reservedword">do
+</span><span class="cpp1-space">                </span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;         restoran taipan     &quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;             FILL UP UR TANK         &quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;          Chef et Mati Karna Mu      &quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;        Jl. ni Saja Apa Yang Ada     &quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;========================================&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot; ______________________________________&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;|     Menu Makanan      |      Harga   |&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;|                       |              |&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;|   1. Ayam Goreng      |  Rp. 10.000  |&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;|   2. lamien ayam      |  Rp. 12.000  |&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;|   3. Mie Pangsit      |  Rp. 10.000  |&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;|   4. Pecel Ayam+Nasi  |  Rp. 15.000  |&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;|   5. Nasi Rames       |  Rp.  8.000  |&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;|   6. Jus Jeruk        |  Rp.  5.000  |&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;|   7. Teh Manis        |  Rp.  2.000  |&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;|_______________________|______________|&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;nasi remes : &quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">kode</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                </span><span class="cpp1-reservedword">switch</span><span class="cpp1-space"> </span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">kode</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">                                </span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">                                </span><span class="cpp1-reservedword">case</span><span class="cpp1-space"> </span><span class="cpp1-number">1</span><span class="cpp1-symbol">:
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-character">'\n'</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Ayam Goreng&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                pri</span><span class="cpp1-symbol">=</span><span class="cpp1-number">10000</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;5 porsi : &quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">jml</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                tot</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">pri</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">jml</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Total Harganya     : Rp.50,000 &quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">tot</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Dibayar              : Rp.100,000 &quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">byr</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                kbl</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">byr</span><span class="cpp1-symbol">-</span><span class="cpp1-identifier">tot</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Kembali              : Rp.50,000&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">kbl</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Masih Ada Yang Lain Y/T : &quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">mad</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                </span><span class="cpp1-reservedword">break</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                               
+                                </span><span class="cpp1-reservedword">case</span><span class="cpp1-space"> </span><span class="cpp1-number">2</span><span class="cpp1-symbol">:
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-character">'\n'</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                pri</span><span class="cpp1-symbol">=</span><span class="cpp1-number">12000</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot; lamien ayam: &quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">jml</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                tot</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">pri</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">jml</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Total Hargany        : Rp.12,000 &quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">tot</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Dibayar              : Rp.20,000 &quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">byr</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                kbl</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">byr</span><span class="cpp1-symbol">-</span><span class="cpp1-identifier">tot</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Kembali              : Rp.8,000&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">kbl</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Masih Ada Yang Lain Y/T : &quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">mad</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                </span><span class="cpp1-reservedword">break</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                               
+                                </span><span class="cpp1-reservedword">case</span><span class="cpp1-space"> </span><span class="cpp1-number">3</span><span class="cpp1-symbol">:
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-character">'\n'</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Mie Pangsit&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                pri</span><span class="cpp1-symbol">=</span><span class="cpp1-number">10000</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;3 porsi : &quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">jml</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                tot</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">pri</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">jml</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Total Hargany        : Rp. 30,000&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">tot</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Dibayar              : Rp. 35,000&quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">byr</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                kbl</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">byr</span><span class="cpp1-symbol">-</span><span class="cpp1-identifier">tot</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Kembali              : Rp.5,000&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">kbl</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Masih Ada Yang Lain Y/T : &quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">mad</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                </span><span class="cpp1-reservedword">break</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                               
+                                </span><span class="cpp1-reservedword">case</span><span class="cpp1-space"> </span><span class="cpp1-number">4</span><span class="cpp1-symbol">:
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-character">'\n'</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Pecel Ayam+Nasi&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                pri</span><span class="cpp1-symbol">=</span><span class="cpp1-number">15000</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;1 porsi : &quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">jml</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                tot</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">pri</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">jml</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Total Hargany        : Rp.15,000 &quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">tot</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Dibayar              : Rp.20,000 &quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">byr</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                kbl</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">byr</span><span class="cpp1-symbol">-</span><span class="cpp1-identifier">tot</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Kembali              : Rp.5,000&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">kbl</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Masih Ada Yang Lain Y/T : &quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">mad</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                </span><span class="cpp1-reservedword">break</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                               
+                                </span><span class="cpp1-reservedword">case</span><span class="cpp1-space"> </span><span class="cpp1-number">5</span><span class="cpp1-symbol">:
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-character">'\n'</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Nasi Rames&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                pri</span><span class="cpp1-symbol">=</span><span class="cpp1-number">8000</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;4 porsi: &quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">jml</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                tot</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">pri</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">jml</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Total Hargany        : Rp.32,000 &quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">tot</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Dibayar              : Rp.40,000 &quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">byr</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                kbl</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">byr</span><span class="cpp1-symbol">-</span><span class="cpp1-identifier">tot</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Kembali              : Rp.8,000&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">kbl</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Masih Ada Yang Lain Y/T : &quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">mad</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                </span><span class="cpp1-reservedword">break</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                               
+                                </span><span class="cpp1-reservedword">case</span><span class="cpp1-space"> </span><span class="cpp1-number">6</span><span class="cpp1-symbol">:
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-character">'\n'</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Jus Jeruk&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                pri</span><span class="cpp1-symbol">=</span><span class="cpp1-number">5000</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;2 porsi : &quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">jml</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                tot</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">pri</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">jml</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Total Hargany        : Rp.10,000 &quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">tot</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Dibayar              : Rp.10,000 &quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">byr</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                kbl</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">byr</span><span class="cpp1-symbol">-</span><span class="cpp1-identifier">tot</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Kembali              : Rp.0&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">kbl</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Masih Ada Yang Lain Y/T : &quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">mad</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                </span><span class="cpp1-reservedword">break</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                               
+                                </span><span class="cpp1-reservedword">case</span><span class="cpp1-space"> </span><span class="cpp1-number">7</span><span class="cpp1-symbol">:
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-character">'\n'</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Teh Manis&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                pri</span><span class="cpp1-symbol">=</span><span class="cpp1-number">2000</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;1 porsi : &quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">jml</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                tot</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">pri</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">jml</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Total Hargany        : Rp.2,000 &quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">tot</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Dibayar              : Rp. 5,000&quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">byr</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                kbl</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">byr</span><span class="cpp1-symbol">-</span><span class="cpp1-identifier">tot</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Kembali              : Rp.3,000&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">kbl</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Masih Ada Yang Lain Y/T : &quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                cin</span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-identifier">mad</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                </span><span class="cpp1-reservedword">break</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                </span><span class="cpp1-reservedword">default</span><span class="cpp1-symbol">:
+</span><span class="cpp1-space">                                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Kode Yang Anda Masukan Tidak Tersedia&quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                                </span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+                </span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">                </span><span class="cpp1-reservedword">while</span><span class="cpp1-space"> </span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">mad</span><span class="cpp1-symbol">/=</span><span class="cpp1-character">'Y'</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">                cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;Terima Kasih Atas Kunjungan Anda Di Pondok Sakieu Ge Uyuhan&quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">                </span><span class="cpp1-reservedword">return</span><span class="cpp1-space"> </span><span class="cpp1-number">0</span><span class="cpp1-symbol">;
+}
+
+</span></span>
+</code></pre>
+</body>
+</html>
